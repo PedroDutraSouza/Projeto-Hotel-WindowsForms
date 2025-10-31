@@ -3,7 +3,7 @@
 > Um sistema de gerenciamento de hotelaria em C# WinForms com quatro módulos principais: Cadastro de Hóspedes, Reservas (com geração de comprovante em PDF), Gerenciamento de Quartos e Controle de Pagamentos.
 
 **Status do Projeto:** 🚧 Em Desenvolvimento 🚧 
-*(ou ✅ Concluído ✅)*
+
 
 ---
 
@@ -49,8 +49,8 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 * **Linguagem:** C#
 * **Plataforma:** .NET Framework (ou .NET 6+)
 * **Interface:** Windows Forms (WinForms)
-* **Banco de Dados:** [SQL Server / SQLite / MySQL - *Adicione o banco que você usou*]
-* **Geração de PDF:** [iTextSharp / QuestPDF / etc. - *Adicione a biblioteca que você usou*]
+* **Banco de Dados:** [*MySQL*]
+* **Geração de PDF:** [*QuestPDF*]
 * **IDE:** Visual Studio 2022
 
 ---
@@ -60,20 +60,26 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 Siga os passos abaixo para executar o projeto em sua máquina local.
 
 **Pré-requisitos:**
-* Visual Studio 2019 ou mais recente
-* SDK do .NET [versão que você usou]
-* [Seu Banco de Dados] (Ex: SQL Server Management Studio)
+* Visual Studio 2022 ou mais recente
+* SDK do .NET [4.8]
+* [XAMPP] (Ex: SQL Server Management Studio)
 
 **Instalação:**
 
-1.  Clone o repositório:
+1.  Inicie o **XAMPP Control Panel** e dê "Start" nos módulos **Apache** e **MySQL**.
+2.  Acesse `http://localhost/phpmyadmin` no seu navegador e crie um novo banco de dados (ex: `db_hotel`).
+3.  *Se você tiver um script SQL:* Importe o arquivo (`.sql`) para dentro do banco `db_hotel` criado.
+4.  Clone o repositório:
     ```bash
     git clone [https://github.com/seu-usuario/Projeto-Hotel-WindowsForms.git](https://github.com/seu-usuario/Projeto-Hotel-WindowsForms.git)
     ```
-2.  Abra o arquivo de solução (`.sln`) no Visual Studio.
-3.  Configure a *connection string* (string de conexão) com o seu banco de dados no arquivo `App.config` (ou onde ela estiver).
-4.  *Opcional: Se necessário, rode o script SQL (`database.sql`) para criar as tabelas do banco de dados.*
-5.  Pressione `F5` ou clique no botão "Start" para compilar e executar o projeto.
+5.  Abra o arquivo de solução (`.sln`) no Visual Studio.
+6.  Configure a *connection string* (string de conexão) com o seu banco de dados MySQL no arquivo `App.config` (ou onde ela estiver).
+    * *Exemplo de connection string para MySQL:*
+        ```xml
+        <add name="SuaConnectionString" connectionString="Server=localhost;Database=db_hotel;Uid=root;Pwd=;" />
+        ```
+7.  Pressione `F5` ou clique no botão "Start" para compilar e executar o projeto.
 
 ---
 
@@ -94,9 +100,12 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-**[Seu Nome Completo]**
+**[Pedro Dutra Paes Penteado Dâmaso de Souza]**
+**[João Pedro Malta]**
+**[Thiago Couto]**
+**[Tarciene]**
 
 * [Link do seu LinkedIn]
 * [Link do seu GitHub]
