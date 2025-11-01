@@ -18,7 +18,7 @@ Este é um sistema desktop (Windows Forms) para gerenciamento hoteleiro. O objet
 O sistema é dividido em quatro módulos centrais:
 
 ### 1. 👥 Cadastro de Hóspedes
-* Registro completo de informações pessoais dos hóspedes (Nome, CPF, Telefone, Endereço, etc.).
+* Registro completo de informações pessoais dos hóspedes (Nome, CPF, Telefone, etc.).
 * Busca rápida, edição e exclusão de perfis de hóspedes.
 * Histórico de hospedagens anteriores.
 
@@ -67,8 +67,8 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 **Instalação:**
 
 1.  Inicie o **XAMPP Control Panel** e dê "Start" nos módulos **Apache** e **MySQL**.
-2.  Acesse `http://localhost/phpmyadmin` no seu navegador e crie um novo banco de dados (ex: `db_hotel`).
-3.  *Se você tiver um script SQL:* Importe o arquivo (`.sql`) para dentro do banco `db_hotel` criado.
+2.  Acesse `http://localhost/phpmyadmin` no seu navegador e crie um novo banco de dados (`caribe_pallace`).
+3.  *Copie o script SQL:* Abra o arquivo (`SQL.txt`) para dentro do banco `db_hotel` criado.
 4.  Clone o repositório:
     ```bash
     git clone [https://github.com/seu-usuario/Projeto-Hotel-WindowsForms.git](https://github.com/seu-usuario/Projeto-Hotel-WindowsForms.git)
@@ -103,9 +103,17 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 ## 👨‍💻 Autores
 
 **[Pedro Dutra Paes Penteado Dâmaso de Souza]**
-**[João Pedro Malta]**
-**[Thiago Couto]**
-**[Tarciene]**
+* [https://www.linkedin.com/in/pedro-dutra-a43170341/]
+* [https://github.com/PedroDutraSouza?tab=repositories]
 
-* [Link do seu LinkedIn]
+**[João Pedro Malta Caldeira]**
+* [https://www.linkedin.com/in/joao-pedro-malta-caldeira-19a032329/]
+* [Link do seu GitHub]
+
+**[Thiago Henrique Salustiano Couto]**
+* [https://www.linkedin.com/in/thiago-couto-8804b92a3/]
+* [Link do seu GitHub]
+
+**[Tarciene dos Santos Ferreira Borges]**
+* [https://www.linkedin.com/in/tarciene-borges-santos/]
 * [Link do seu GitHub]
