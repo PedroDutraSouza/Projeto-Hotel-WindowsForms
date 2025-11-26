@@ -108,7 +108,7 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 
 **[João Pedro Malta Caldeira]**
 * [https://www.linkedin.com/in/joao-pedro-malta-caldeira-19a032329/]
-* [Link do seu GitHub]
+* [https://github.com/Malta880]
 
 **[Thiago Henrique Salustiano Couto]**
 * [https://www.linkedin.com/in/thiago-couto-8804b92a3/]
